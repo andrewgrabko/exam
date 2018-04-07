@@ -1,0 +1,475 @@
+
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700');
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('../fonts/aleo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aleo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Aleo';
+    src: url('../fonts/aleo-regular-webfont.woff2') format('woff2'),
+         url('../fonts/aleo-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+
+
+body{
+	font: 400 16px/1.6 'Josefin Sans', sans-serif;
+	color:  #e8e8e8;
+}
+h1,h2,h3,h4,h5,h6,p{
+	margin: 0;
+}
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1150px;
+}
+
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	background: blue;
+}
+textarea {
+
+}
+.ba-intro{
+	background: #39444f url('../img/bg-intro.jpg') no-repeat center;
+	color: #fff;
+	background-size: cover;
+	padding-top: 260px;
+}
+.ba-page-title{
+	color:  #ffffff;
+font-size: 45px;
+font-weight: 400;
+text-align: center;
+text-transform: uppercase;
+line-height: 1;
+letter-spacing: 0.07em;
+padding-bottom: 6px;
+}
+.ba-page-subtitle{
+	color:  #ffffff;
+font-size: 22px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.25em;
+padding-bottom:44px ;
+}
+.ba-search{
+	max-width: 661px;
+	display: flex;
+	align-items: center;
+	margin: 0 auto;
+	padding-bottom: 114px;
+}
+
+
+input[type="search"]{
+	flex-basis: 500px;
+	color:  #999999;
+font-size: 14px;
+font-weight: 400;
+line-height:60px;
+text-align: center;
+border:0;
+letter-spacing:0.2em ;
+}
+.ba-button--intro{
+	border-width: 2px;
+border-color:  #ffffff;
+border-style: solid;
+background-color:  #5474fd;
+flex-basis: 146px;
+height: 62px;
+font-family: Aleo;
+color:  #ffffff;
+font-size: 14px;
+font-weight: 400;
+line-height: 58px;
+text-align: center;
+text-transform: uppercase;
+}
+.ba-button--intro:hover{
+	background: #ffffff;
+	color: #5474fd;
+}
+.ba-scroll{
+	display: block;
+	color:  #ffffff;
+font-size: 14px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+text-decoration: none;
+}
+.ba-scroll:hover{
+	color:red;
+}
+
+
+.ba-scroll img{
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+}
+.ba-scroll-center{
+	max-width:76px; 
+	margin: 0 auto;
+	padding-bottom: 140px;
+}
+.ba-header{
+	background-color:  #5474fd;
+
+height: 80px;
+}
+
+
+.ba-helper{
+	display: flex;
+	align-items: center;
+}
+.ba-nav{
+	flex-grow: 1;
+}
+.ba-menu{
+	display: flex;
+	justify-content: flex-end;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+.ba-menu a:hover{
+	color: red;
+}
+.ba-menu a{
+	font-family: Aleo;
+color:  #ffffff;
+font-size: 14px;
+font-weight: 400;
+line-height: 80px;
+text-align: left;
+	text-decoration: none;
+	margin: 0 7px 0 35px;
+	text-transform: uppercase;
+}
+.ba-logo{
+	text-decoration: none;
+	color:  #ffffff;
+font-size: 24px;
+font-weight: 700;
+line-height: 80px;
+text-align: left;
+text-transform: uppercase;
+}
+
+.ba-about{
+	background: #39444f url('../img/bg-about.jpg') no-repeat center;
+	color: #fff;
+	background-size: cover;
+	padding-top: 120px;
+	padding-bottom: 109px;
+}
+
+.ba-section--about{
+	font-family: Aleo;
+    color: #ffffff;
+    font-size: 36px;
+    font-weight: 400;
+    padding-bottom: 49px;
+}
+.ba-about__content:last-child{
+	
+}
+.ba-about__content{
+	padding-top: 71px;
+}
+
+.ba-about__content p {
+	padding-bottom: 30px;
+}
+.picturewhy{
+	padding-left: 58px;
+}
+.picturedown{
+	padding-left:182px;
+	padding-top: 2px;
+}
+.ba-button--explore{
+	display: inline-block;
+	text-decoration: none;
+	font-family: Aleo;
+	text-transform: uppercase;
+color:  #ffffff;
+font-size: 16px;
+font-weight: 400;
+line-height:60px ;
+text-align: center;
+background-color:  #5474fd;
+max-width: 225px;
+padding: 0 43px;
+margin-top: 9px;
+}
+.ba-button--explore:hover{
+	color:  #5474fd;
+	background-color:  #ffffff;
+}
+
+
+
+
+.ba-services{
+	background-color:  #333333;
+	padding: 95px 0 115px;
+}
+
+.ba-enjoy{
+	display: flex;
+	justify-content: space-around;
+	padding: 0 10px;
+}
+.ba-service{
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.ba-service__title{
+	font-family: Aleo;
+color:  #e8e8e8;
+font-size: 36px;
+font-weight: 400;
+line-height: 1;
+text-align: center;
+padding-top: 30px;
+}
+
+.ba-book{
+	background: #39444f url('../img/spain.jpg') no-repeat center;
+	background-size: cover;
+	padding-top: 120px;
+	padding: 226px 0 100px;
+}
+.ba-book-2{
+	background: #39444f url('../img/grandspain.jpg') no-repeat center;
+	background-size: cover;
+	padding-top: 120px;
+	padding: 226px 0 100px;
+}
+.ba-book-spain{
+	padding: 50px 25px 50px 25px;
+	background-color:  rgba(35, 35, 35, 0.9);
+	max-width: 540px;
+}
+.ba-book__country{
+	color:  #e8e8e8;
+font-size: 20px;
+font-weight: 400;
+line-height: 1;
+text-align: left;
+padding-bottom: 28px;
+
+}
+.ba-book__title{
+	color:  #ffffff;
+font-size: 20px;
+font-weight: 400;
+line-height: 1;
+text-align: left;
+text-transform: uppercase;
+padding-bottom: 28px;
+}
+.ba-book-spain p{
+	padding-bottom: 28px;
+}
+.ba-button-book{
+	display: inline-block;
+	text-decoration: none;
+	font-family: Aleo;
+	text-transform: uppercase;
+color:  #ffffff;
+font-size: 16px;
+font-weight: 400;
+line-height:60px ;
+text-align: center;
+background-color:  #5474fd;
+max-width: 225px;
+padding: 0 65px;
+margin-top: 10px;
+}
+.ba-button-book:hover{
+	color:  #5474fd;
+	background-color:  #ffffff;
+}
+
+
+.ba-tourist{
+	background: #39444f url('../img/bg-tourist.jpg') no-repeat center;
+	background-size: cover;
+	padding: 127px 0 200px;
+}
+.ba-tourist-info{
+	display: flex;
+	
+}
+.ba-tourist-info__image{
+	flex-shrink: 0;
+}
+.ba-section-title{
+	font-family: Aleo;
+color:  #ffffff;
+font-size: 36px;
+font-weight: 400;
+line-height: 26px;
+text-align: center;
+padding-bottom: 100px;
+}
+.ba-tourist-info__body{
+	background-color:  #333333;
+  max-width: 665px;
+ max-height:  284px;
+	padding: 52px 50px;
+}
+.ba-tourist-info__body p:before{
+	content: " “ ";
+    font-size: 40px;
+}
+.ba-tourist-info__title{
+	color:  #fefefe;
+font-size: 20px;
+font-weight: 400;
+line-height: 1;
+text-transform: uppercase;
+padding-bottom: 7px;
+}
+.ba-footer{
+	background-color:  #232323;
+	padding: 115px 0 50px;
+}
+
+.ba-title__footer{
+	padding-bottom: 11px;
+	color:  #ffffff;
+font-size: 24px;
+font-weight: 700;
+line-height: 1;
+text-align: center;
+text-transform: uppercase;
+}
+.ba-subtitle__footer{
+	color:  #ffffff;
+font-size: 16px;
+font-weight: 400;
+line-height: 1;
+text-align: center;
+padding-bottom: 25px;
+}
+.ba-socials{
+	margin: 0 auto;
+	display: flex;
+	max-width: 167px;
+	justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
